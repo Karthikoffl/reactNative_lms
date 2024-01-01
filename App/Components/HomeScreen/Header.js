@@ -38,8 +38,11 @@ const Header = () => {
           style={{
             backgroundColor: Colors.WHITE,
             paddingLeft: 20,
+            paddingRight: 5,
             flexDirection: "row",
             justifyContent: "space-between",
+            borderRadius: 99,
+            marginTop: 25,
           }}
         >
           <TextInput

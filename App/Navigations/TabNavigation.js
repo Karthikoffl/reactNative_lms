@@ -10,6 +10,8 @@ import {
   Ionicons,
   FontAwesome,
 } from "@expo/vector-icons";
+import Colors from "../Utils/Colors";
+import HomeNavigation from "./HomeNavigation";
 
 const Tab = createBottomTabNavigator();
 
@@ -17,8 +19,8 @@ const TabNavigation = () => {
   return (
     <Tab.Navigator screenOptions={{ headerShown: false }}>
       <Tab.Screen
-        name="Home"
-        component={HomeScreen}
+        name="home"
+        component={HomeNavigation}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Entypo name="home" size={size} color={color} />
