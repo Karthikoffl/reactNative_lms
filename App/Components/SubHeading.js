@@ -4,7 +4,7 @@ import Colors from "../Utils/Colors";
 
 const SubHeading = ({ text, color = Colors.BLACK }) => {
   return (
-    <View>
+    <View style={{ marginBottom: 10 }}>
       <Text style={{ fontFamily: "outfit-bold", fontSize: 24, color: color }}>
         {text}
       </Text>

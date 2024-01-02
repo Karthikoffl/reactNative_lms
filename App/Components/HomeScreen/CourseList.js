@@ -22,7 +22,7 @@ const CourseList = ({ level }) => {
   };
 
   return (
-    <View style={{}}>
+    <View style={{ marginBottom: 20 }}>
       <SubHeading
         text={level + " Courses"}
         color={level === "Basic" && Colors.WHITE}
